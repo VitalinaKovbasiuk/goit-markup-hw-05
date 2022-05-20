@@ -32,10 +32,14 @@ body {
 h1,
 h2,
 h3,
-p,
+p {
+  margin: 0;
+}
+
 ul,
 ol {
   margin: 0;
+  padding: 0;
 }
 
 img {
@@ -72,12 +76,6 @@ footer {
   display: flex;
   align-items: center;
 }
-
-/* .header-nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-   } */
 
 .site-logo {
   font-family: var(--secondary-font);
@@ -155,8 +153,8 @@ footer {
   letter-spacing: 0.02em;
   color: #757575;
   text-decoration: none;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  /* padding-top: 32px;
+  padding-bottom: 32px; */
   display: block;
   display: flex;
   align-items: center;
