@@ -113,6 +113,7 @@ footer {
 .site-nav-link:hover,
 .site-nav-link:focus {
   color: var(--accent-color);
+  transition: transform var(--duration) var(--timing-function);
 }
 
 .site-nav-link {
@@ -168,6 +169,7 @@ footer {
 .auth-nav-link:hover,
 .auth-nav-link:focus {
   color: var(--accent-color);
+  transition: transform var(--duration) var(--timing-function);
 }
 
 .navigation-icon {
@@ -242,6 +244,7 @@ footer {
 .buttom-order:hover,
 .buttom-order:focus {
   background-color: #188ce8;
+  transition: transform var(--duration) var(--timing-function);
 }
 
 /* Modal form */
@@ -488,6 +491,7 @@ justify-content: center; */
 .social-link:hover,
 .social-link:focus {
   background-color: #2196f3;
+  transition: transform var(--duration) var(--timing-function);
 }
 
 .socials-item {
@@ -505,6 +509,7 @@ justify-content: center; */
 .social-link:hover .socials-icon,
 .social-link:focus .socials-icon {
   fill: #ffffff;
+  transition: transform var(--duration) var(--timing-function);
 }
 
 /*#endregion*/
@@ -546,6 +551,7 @@ justify-content: center; */
   background: #2196f3;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
+  transition: transform var(--duration) var(--timing-function);
 }
 
 .portfolio-projects {
@@ -576,6 +582,7 @@ justify-content: center; */
   background: #ffffff;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
+  transition: transform var(--duration) var(--timing-function);
 }
 
 .img-container {
@@ -609,6 +616,7 @@ justify-content: center; */
 .portfolio-list-link:hover .portfolio-text,
 .portfolio-list-link:focus .portfolio-text {
   transform: translateY(0);
+  transition: transform var(--duration) var(--timing-function);
 }
 
 .border-size {
@@ -677,6 +685,7 @@ justify-content: center; */
 .regular-customers-link:hover,
 .regular-customers-link:focus {
   border: 1px solid #2196f3;
+  transition: transform var(--duration) var(--timing-function);
 }
 
 .regular-customers-item {
@@ -694,6 +703,7 @@ justify-content: center; */
 .regular-customers-link:hover .regular-customers-icon,
 .regular-customers-link:focus .regular-customers-icon {
   fill: #2196f3;
+  transition: transform var(--duration) var(--timing-function);
 }
 /*#endregion*/
 
@@ -781,6 +791,7 @@ justify-content: center; */
 .join-link:hover,
 .join-link:focus {
   background-color: #2196f3;
+  transition: transform var(--duration) var(--timing-function);
 }
 
 .join-item {
@@ -798,5 +809,6 @@ justify-content: center; */
 .join-link:hover .socials-icon,
 .join-link:focus .socials-icon {
   fill: #ffffff;
+  transition: transform var(--duration) var(--timing-function);
 }
 /*#endregion*/
