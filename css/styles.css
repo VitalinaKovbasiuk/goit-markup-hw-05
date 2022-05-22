@@ -113,8 +113,8 @@ footer {
 .site-nav-link:hover,
 .site-nav-link:focus {
   color: var(--accent-color);
-  transition: transform var(--duration) var(--timing-function);
- }
+  transition: color var(--duration) var(--timing-function);
+}
 
 .site-nav-link {
   font-weight: 500;
@@ -171,7 +171,7 @@ footer {
 .auth-nav-link:hover,
 .auth-nav-link:focus {
   color: var(--accent-color);
-  transition: transform var(--duration) var(--timing-function);
+  transition: color var(--duration) var(--timing-function);
 }
 
 .navigation-icon {
@@ -260,7 +260,7 @@ footer {
   left: 0;
   transition: opacity var(--duration) var(--timing-function),
     visibility var(--duration) var(--timing-function);
-    z-index: 3;
+  z-index: 3;
 }
 
 .backdrop.is-hidden {
@@ -298,7 +298,6 @@ footer {
   align-items: center;
   justify-content: center;
   padding: 0;
-  
 }
 
 /*#endregion*/
@@ -496,7 +495,7 @@ justify-content: center; */
 .social-link:hover,
 .social-link:focus {
   background-color: #2196f3;
-  transition: transform var(--duration) var(--timing-function);
+  transition: background-color var(--duration) var(--timing-function);
 }
 
 .socials-item {
@@ -514,7 +513,7 @@ justify-content: center; */
 .social-link:hover .socials-icon,
 .social-link:focus .socials-icon {
   fill: #ffffff;
-  transition: transform var(--duration) var(--timing-function);
+  transition: fill var(--duration) var(--timing-function);
 }
 
 /*#endregion*/
@@ -548,6 +547,9 @@ justify-content: center; */
   border-radius: 4px;
   padding: 6px 22px;
   border: none;
+  transition: color var(--duration) var(--timing-function),
+      box-shadow var(--duration) var(--timing-function),
+      background-color var(--duration) var(--timing-function);
 }
 
 .porfolio-navigation-buttom:hover,
@@ -556,7 +558,9 @@ justify-content: center; */
   background: #2196f3;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
-    transition: transform var(--duration) var(--timing-function);
+  transition: color var(--duration) var(--timing-function),
+    box-shadow var(--duration) var(--timing-function),
+    background-color var(--duration) var(--timing-function);
 }
 
 .portfolio-projects {
@@ -579,6 +583,8 @@ justify-content: center; */
 
 .portfolio-list-link {
   text-decoration: none;
+  transition: box-shadow var(--duration) var(--timing-function);
+
 }
 
 .portfolio-list-link:hover,
@@ -587,7 +593,7 @@ justify-content: center; */
   background: #ffffff;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
-    transition: transform var(--duration) var(--timing-function);
+  transition: box-shadow var(--duration) var(--timing-function);
 }
 
 .img-container {
@@ -691,7 +697,7 @@ justify-content: center; */
 .regular-customers-link:hover,
 .regular-customers-link:focus {
   border: 1px solid #2196f3;
-  transition: transform var(--duration) var(--timing-function);
+  transition: border-color var(--duration) var(--timing-function);
 }
 
 .regular-customers-item {
@@ -704,12 +710,13 @@ justify-content: center; */
 
 .regular-customers-icon {
   fill: #afb1b8;
+  transition: fill var(--duration) var(--timing-function);
 }
 
 .regular-customers-link:hover .regular-customers-icon,
 .regular-customers-link:focus .regular-customers-icon {
   fill: #2196f3;
-  transition: transform var(--duration) var(--timing-function);
+  transition: fill var(--duration) var(--timing-function);
 }
 /*#endregion*/
 
@@ -792,12 +799,13 @@ justify-content: center; */
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: background-color var(--duration) var(--timing-function);
 }
 
 .join-link:hover,
 .join-link:focus {
   background-color: #2196f3;
-  transition: transform var(--duration) var(--timing-function);
+  transition: background-color var(--duration) var(--timing-function);
 }
 
 .join-item {
@@ -815,6 +823,6 @@ justify-content: center; */
 .join-link:hover .socials-icon,
 .join-link:focus .socials-icon {
   fill: #ffffff;
-  transition: transform var(--duration) var(--timing-function);
+  transition: fill var(--duration) var(--timing-function);
 }
 /*#endregion*/
