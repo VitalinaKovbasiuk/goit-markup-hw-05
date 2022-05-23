@@ -548,8 +548,8 @@ justify-content: center; */
   padding: 6px 22px;
   border: none;
   transition: color var(--duration) var(--timing-function),
-      box-shadow var(--duration) var(--timing-function),
-      background-color var(--duration) var(--timing-function);
+    box-shadow var(--duration) var(--timing-function),
+    background-color var(--duration) var(--timing-function);
 }
 
 .porfolio-navigation-buttom:hover,
@@ -584,7 +584,6 @@ justify-content: center; */
 .portfolio-list-link {
   text-decoration: none;
   transition: box-shadow var(--duration) var(--timing-function);
-
 }
 
 .portfolio-list-link:hover,
@@ -691,13 +690,15 @@ justify-content: center; */
   justify-content: center;
   border: 1px solid #afb1b8;
   border-radius: 1px;
-  transition: border-color var(--duration) var(--timing-function);
+  transition: border-color var(--duration) var(--timing-function),
+    fill var(--duration) var(--timing-function);
 }
 
 .regular-customers-link:hover,
 .regular-customers-link:focus {
   border: 1px solid #2196f3;
-  transition: border-color var(--duration) var(--timing-function);
+  transition: border-color var(--duration) var(--timing-function),
+    fill var(--duration) var(--timing-function);
 }
 
 .regular-customers-item {
